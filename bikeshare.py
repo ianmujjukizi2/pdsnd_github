@@ -117,13 +117,16 @@ def station_stats(df):
     start_time = time.time()
 
     # display most commonly used start station
-
+    common_start_station = df['Start Station'].value_counts().idxmax()
+    print("{} is the most commonly used start station.".format(common_start_station))
 
     # display most commonly used end station
-
+    common_end_station = df['End Station'].value_counts().idxmax()
+    print("{} is the most commonly used end station.".format(common_end_station))
 
     # display most frequent combination of start station and end station trip
-
+    freq_start_end_station = (df['Start Station'] + ' - ' + df['End Station']).value_counts().idxmax()
+    print('Most frequent combination of start station and end station trip {}'.format(freq_start_end_station))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
