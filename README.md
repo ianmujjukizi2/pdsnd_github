@@ -7,6 +7,9 @@ Explore UD BikeShare Data
 ### Description
 Use Python to understand U.S. bikeshare data. Calculate statistics and build an interactive environment where a user chooses the data and file for a dataset to analyze
 
+### Software Requirements
+Python version 3.8.8
+
 ### Files used
 bikeshare.py
 
