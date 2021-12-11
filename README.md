@@ -10,6 +10,13 @@ Use Python to understand U.S. bikeshare data. Calculate statistics and build an 
 ### Software Requirements
 Python version 3.8.8
 
+### Software Installation Instructions
+To install Python 3.8.8 on the different OS, check out the Python docs
+
+- Windows OS [link](https://docs.python.org/3/using/windows.html) 
+- Unix OS [link](https://docs.python.org/3/using/unix.html)
+- Mac OS [link](https://docs.python.org/3/using/mac.html)
+
 ### Files used
 bikeshare.py
 
